@@ -215,7 +215,7 @@
     gap: 20px;
     flex-wrap: wrap; 
     justify-content: center;
-    width: 100%;
+    width: 90%;
 
 }
 
@@ -258,7 +258,7 @@
 }
 
   .team-section{
-    padding: 50% 0%;
+    padding: 20% 0%;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
@@ -272,6 +272,7 @@
 .team-section-img img {
     width: 100%;
     height: auto;
+    padding-top: 39px;
 }
 
 .button1 {
