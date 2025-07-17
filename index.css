@@ -1,0 +1,360 @@
+/* body */
+.work-sans-font{
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* shared styles */
+.displayflex-items{
+    display: flex;
+}
+
+.dark1{
+    color: #131313;
+}
+
+.dark2{
+    color: #424242;
+}
+
+.dark3{
+    color: #727272;
+}
+
+.orange{
+    color: #FF900E;
+}
+
+/* header */
+.header-style{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+/* navigation */
+.navigation{
+   justify-content:space-around;
+   align-items:  center;
+   margin: 0 auto;
+}
+
+.nav-title{
+    font-size: 3rem;
+    margin-top: 37px;
+}
+
+.nav-item, .nav-link{
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav-links{
+    gap: 50px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+/* banner */
+.banner{
+    padding: 20px;
+}
+
+.banner-content{
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.banner-title{
+    font-size: 4rem;
+}
+
+.button{
+    color: #FFFFFF;
+    background-color: #FF900E;
+    margin-top: 32px;
+    border-radius: 8px;
+    padding: 13px;
+    border: none;
+}
+
+.banner-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 30px auto 0; 
+}
+
+/* section */
+.section{
+    gap: 73px;
+    padding: 85px 230px;
+    justify-content: center;
+}
+
+.section-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; 
+}
+
+.section-title{
+    font-size: 3rem;
+}
+
+.section-items{
+    width: 537px;
+    height: 304px;
+    padding: 150px 0;
+}
+
+/* team section */
+.team-section-title{
+    font-size: 3rem;
+}
+
+.team-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+
+.team-section-subtitle{
+    font-size: 1.2rem;
+}
+
+.team-section-subp, .team-section-p{
+    font-size: 1rem;
+}
+
+.team-section-sub{
+    box-shadow: 0 1px 5px #02020591;
+    padding: 2px 10px;
+    margin-top: 20px;
+}
+
+.team-section-img{
+    position: relative;
+}
+.button1{
+    color: #FFFFFF;
+    background-color: #FF900E;
+    border-radius: 8px;
+    padding: 20px;
+    border: none;
+    position: absolute;
+    bottom: 0px ;
+    font-size:4.5rem ;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+.tenyear{
+    font-weight: bolder;
+}
+.Experience{
+    font-size: 1.5rem;
+}
+
+/* responsive */
+/* Mobile: Up to 576px */
+@media screen and (max-width: 576px) {
+  .navigation {
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 20px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin-right: 40px;
+  }
+
+  .nav-title {
+    font-size: 2rem;
+    margin-top: 20px;
+  }
+
+  .banner-title {
+    font-size: 2rem;
+  }
+
+  .banner-content {
+    padding: 0 15px;
+  }
+
+  .banner-p {
+    font-size: 0.95rem;
+  }
+
+  .button {
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+
+  .banner-img {
+    margin-top: 20px;
+  }
+
+  .section{
+    flex-direction: column;
+    padding: 0%;
+  }
+
+.section-img {
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap; 
+    justify-content: center;
+    width: 100%;
+
+}
+
+  .section-items{
+    width: 100%;
+    padding: 0% 0%;
+    text-align: center;
+  }
+
+.team-section-1{
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.team-section-p{
+    margin: 0 auto;
+}
+
+  .team-section-title{
+    font-size: 2rem;
+    width: 290px;
+}
+
+.team-section-subtitle{
+    font-size: 1.2rem;
+    
+}
+
+.team-section-subp, .team-section-p{
+    font-size: 1rem;
+    width: 250px;
+}
+
+
+.team-section-sub{
+    box-shadow: 0 1px 5px #02020591;
+    padding: 2px 10px;
+    margin-top: 20px;
+}
+
+  .team-section{
+    padding: 50% 0%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+.team-section-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team-section-img img {
+    width: 100%;
+    height: auto;
+}
+
+.button1 {
+    position: static;
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 10px;
+}
+
+.tenyear {
+    font-size: 1.5rem;
+}
+
+.Experience {
+    font-size: 0.5rem;
+}
+
+
+}
+
+/* Tablet: 577px to 992px */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .navigation {
+    flex-direction: column;
+    padding: 10px 40px;
+  }
+
+  .nav-links {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin: 0;
+  }
+
+  .nav-title {
+    font-size: 2.5rem;
+    margin-top: 25px;
+  }
+
+  .banner-title {
+    font-size: 3rem;
+  }
+
+  .banner-content {
+    padding: 0 30px;
+  }
+
+  .banner-p {
+    font-size: 1rem;
+  }
+
+  .button {
+    padding: 12px 25px;
+    font-size: 1rem;
+  }
+
+  .banner-img {
+    margin-top: 25px;
+    width: 90%;
+  }
+
+  .section{
+    flex-direction: column;
+    padding: 15% 2.5%;
+    gap: 10px;
+  }
+
+  .section-items{
+    padding: 0% 15%;
+    text-align: center;
+  }
+
+  .team-section{
+    padding: 0%;
+    gap: 0;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .team-section-img{
+    padding: 10% 3%;
+  }
+}
+
+
